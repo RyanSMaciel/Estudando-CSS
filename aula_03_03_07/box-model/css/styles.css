@@ -1,0 +1,49 @@
+/*
+    Box Model = podemos configurar a aparência da caixa dos elementos
+    padding = preenchimento
+    amrgin = espaçamento externo
+    border = contorno
+*/
+
+.box1{
+    background-color: rgb(173, 50, 255);
+    text-align: justify;
+    padding: 2vw;   /* preenchimento em todos os lados */
+    margin: 3vw;    /* margem externa em todos os lados */
+    
+}
+
+.box2{
+    background-color: greenyellow;
+    text-align: justify;
+    /* TOP RIGHT BOTTOM LEFT = sentido horário */
+    padding: 2vw 1vw 5vw 2vw;   /* preenchimento lado por lado */
+    /* margin: 3vw 1vw 1vw 1vw;    /* margem externa em todos os lados */
+    /* Alinhamento vertigal(TOP-BOT) / horizontal(L-R) */
+    margin: 2vw 1vw;
+}
+
+.box3{
+    background-color: brown;
+    text-align: justify;
+    /* SOLID, DASHED, DOTTED */
+    /* https://www.w3schools.com/css/css_border.asp */
+    border: 0.5vw dotted blue;
+}
+
+.box4{
+    background-color: powderblue;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    width: 200px;
+     /* define o tanto de tamano que a DIV tem, contando padding, border, width e conteúdo */
+    box-sizing: border-box;
+}
+
+/* Seletor universal, serve para todos os elementos da página*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
