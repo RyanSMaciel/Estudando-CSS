@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Agdasima");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://media.tenor.com/E7QxmVz22ugAAAAC/estudar-computador.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h2{
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+div{
+    margin: 2vw 30vw;
+    color: white;
+    padding: 1vw;
+    border: 0.2vw solid black ;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav{
+    margin: 2vw 30vw;
+    color: white;
+    padding: 1vw;
+    border: 0.2vw solid black ;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sec p{
+    text-align: justify;
+    font-family: 'Agdasima', Tahoma, Verdana, sans-serif;
+}
+
+.sec h2{
+    text-align: center;
+    font-family: 'Agdasima', Tahoma, Verdana, sans-serif;
+}
+
+.botoes{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    border: 0.1vw dotted white ;
+    background-color: red;
+    display: block;
+    margin-top: 0.3vw;
+    padding: 1vh 2vh;
+    border-radius: 10%;
+    cursor: pointer;
+    &:hover{
+        background-color: white;
+        opacity: 80%;
+    }
+}
+
+img{
+    width: 1.5vw;
+}
+
+.lista ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+li{
+    font-weight: bolder;
+    display: inline-block;
+    margin: 1vw;
+    padding: 0.2vw;
+}
+a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration: none;
+    &:hover{
+        color: rgb(81, 81, 255);
+    }
+}
