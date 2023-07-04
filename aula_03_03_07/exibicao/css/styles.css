@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+/* 
+    Display:
+        display: block -> ocupa toda a largura, quebra linha no final
+        display: inline -> ocupa apenas uma linha, colocando lado a lado
+        display: none -> elemento não será exibido
+        display: inline-block -> permite que um elemento ocupe apenas a largura do conteúdo, combinando características de elementos 'inline' e 'block'.
+*/
+.box{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+.none{
+    display: none;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

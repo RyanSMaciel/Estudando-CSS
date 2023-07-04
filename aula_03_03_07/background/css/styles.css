@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    /* background-color: black; */
+    background-image: url("https://soulcode.com/assets/images/logo/light-logo.png");
+    /* no-repeat repeat-x repeat y  */
+    background-repeat: no-repeat;
+    /* bottom right top left center */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 90vw;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+    border-radius: 50%;
+    background-image: url("https://media.tenor.com/dOJkaBAci1gAAAAC/mfw-fallen.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
