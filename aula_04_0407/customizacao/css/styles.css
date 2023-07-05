@@ -26,6 +26,8 @@ body{
     border-radius: 8px;
     font-size: 1rem;
     width: 13vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn:hover{
