@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    background-color: brown;
+    /* padding: 12px; */
+    display: flex; /* ativa o flexbox*/
+    /* row, columns = direção onde as divs ficarão*/
+    flex-direction: row;
+    /* nowrap, wrap = indica se pode quebrar linha, se não houver espaço */
+    flex-wrap: wrap;
+    /* flex-flow: wrap;   atalho para flex-direction e flex-wrap*/
+    /* start, end, center, space-between, space-arround, space-evenly */
+    justify-content: space-between;
+    /* stretch, flex-start, flex-end, center */
+    align-items: center;
+    /* start, end, center, space-between, space-arround, space-evenly */
+    /* align-content: center; */
+
+    height: 400px;
+}
+
+.item1{
+    background-color: orange;
+}
+
+.item2{
+    background-color: greenyellow;
+}
+
+.item3{
+    background-color: gold;
+    /* start, end, center, space-between, space-arround, space-evenly */
+    align-self: stretch;  /* alinha o eixo cross individualmente*/
+}
+
+.item4{
+    background-color: hotpink;
+}
+
+.item1,
+.item2,
+.item3,
+.item4{
+    width: 200px;
+    padding: 8px;
+}
+
+.container2{
+    background-color: chocolate;
+    height: 250px;
+    display: flex;
+}
+
+.col1{
+    background-color: tan;
+    width: 200px;
+}
+
+.col2{
+    background-color: aquamarine;
+    flex: 2; /* ocupe a proporção do espaço disponível*/
+}
+
+.col3{
+    background-color: snow;
+    flex: 1;
+}
